@@ -34,6 +34,7 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
+  user-select: none;
 }
 
 .player {
@@ -54,6 +55,7 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .score {
@@ -66,9 +68,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -132,9 +136,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -184,3 +190,4 @@ a {
 a:hover {
   color: #222;
 }
+
